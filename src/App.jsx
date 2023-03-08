@@ -6,6 +6,7 @@ import CompoundComponent from './patterns/3_CompoundComponent';
 import ReusableStyle from './patterns/4_ReusableStyles';
 import PropsCollection from './patterns/7_PropsCollection';
 import PropsGetters from './patterns/8_PropsGetters';
+import StateInitialiser from './patterns/9_StateInitialiserPattern';
 
 function App() {
     return (
@@ -17,7 +18,8 @@ function App() {
             {/* <ControlPropsPattern /> */}
             {/* <MediumClapWithCustomHook /> */}
             {/* <PropsCollection /> */}
-            <PropsGetters />
+            {/* <PropsGetters /> */}
+            <StateInitialiser />
         </>
     );
 }
