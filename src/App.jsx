@@ -4,6 +4,7 @@ import HigherOrderComponent from './patterns/1_HigherOrderComponent';
 import MediumClapWithCustomHook from './patterns/2_CustomHook';
 import CompoundComponent from './patterns/3_CompoundComponent';
 import ReusableStyle from './patterns/4_ReusableStyles';
+import PropsCollection from './patterns/7_PropsCollection';
 
 function App() {
     return (
@@ -13,7 +14,8 @@ function App() {
             {/* <CompoundComponent /> */}
             {/* <ReusableStyle /> */}
             {/* <ControlPropsPattern /> */}
-            <MediumClapWithCustomHook />
+            {/* <MediumClapWithCustomHook /> */}
+            <PropsCollection />
         </>
     );
 }
