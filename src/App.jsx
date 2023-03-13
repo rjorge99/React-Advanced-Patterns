@@ -7,6 +7,7 @@ import ReusableStyle from './patterns/4_ReusableStyles';
 import PropsCollection from './patterns/7_PropsCollection';
 import PropsGetters from './patterns/8_PropsGetters';
 import StateInitialiser from './patterns/9_StateInitialiserPattern';
+import StateReducerPattern from './patterns/10_StateReducerPattern';
 
 function App() {
     return (
@@ -19,7 +20,8 @@ function App() {
             {/* <MediumClapWithCustomHook /> */}
             {/* <PropsCollection /> */}
             {/* <PropsGetters /> */}
-            <StateInitialiser />
+            {/* <StateInitialiser /> */}
+            <StateReducerPattern />
         </>
     );
 }
